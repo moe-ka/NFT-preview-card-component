@@ -155,3 +155,16 @@ body{
     cursor: pointer;
 
 }
+
+/* responsive breakpoint */
+
+@media (max-width: 350px) {
+
+    .price-detail {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    }
